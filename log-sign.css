@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    width: 100vw;
+    height: 1024px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+
+.signup-bg{
+    background: linear-gradient(304.7deg, rgba(0, 0, 255, 0.2) 3.59%, rgba(204, 204, 255, 0) 32.45%), linear-gradient(302.79deg, rgba(0, 0, 255, 0.2) 8.03%, rgba(204, 204, 255, 0.2) 52.51%), #CCCCFF;
+    background-attachment: fixed;
+}
+
+.rewardia{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-rewardia{
+    color: #FFFFFF;
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shadow{
+
+
+filter: drop-shadow(-30px 15px 4px rgba(0, 0, 0, 0.25));
+}
+
+.rect-one{
+    box-sizing: border-box;
+width: 513px;
+height: 607px;
+margin: -50px 0 0 170px ;
+border-radius: 100px 0px 0px 100px;
+}
+
+.signup-rect-one{
+
+    background: #CCCCFF;
+    border: 2px solid #FFFFFF;
+}
+
+.rect-two{
+    position: relative;
+width: 651px;
+height: 607px;
+left: 524px;
+margin: -607px 0 0 170px ;
+}
+
+.signup-rect-two{
+
+    background: #FFFFFF;
+    border-radius: 0px 100px 100px 0px;
+}
