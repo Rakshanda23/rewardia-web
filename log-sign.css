@@ -12,6 +12,11 @@ body{
     background-attachment: fixed;
 }
 
+.login-bg{
+    background: white;
+    background-attachment: fixed;
+}
+
 .rewardia{
     font-family: 'Montserrat';
     font-style: normal;
@@ -26,9 +31,12 @@ body{
     text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.login-rewardia{
+    color: #8383D4;
+    text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .shadow{
-
-
 filter: drop-shadow(-30px 15px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -46,6 +54,12 @@ border-radius: 100px 0px 0px 100px;
     border: 2px solid #FFFFFF;
 }
 
+.login-rect-one{
+
+    background: white;
+    border: 2px solid #CCCCFF;
+}
+
 .rect-two{
     position: relative;
 width: 601px;
@@ -60,6 +74,12 @@ margin: -537px 0px 0 170px ;
     border-radius: 0px 100px 100px 0px;
 }
 
+.login-rect-two{
+
+    background: linear-gradient(304.7deg, rgba(0, 0, 255, 0.2) 3.59%, rgba(204, 204, 255, 0) 32.45%), linear-gradient(302.79deg, rgba(0, 0, 255, 0.2) 8.03%, rgba(204, 204, 255, 0.2) 52.51%), #CCCCFF;
+    border-radius: 0px 100px 100px 0px;
+}
+
 .image{
 /* left: 116px;
 top: 326px; */
@@ -68,38 +88,55 @@ filter: drop-shadow(-15px 10px 4px rgba(32, 32, 32, 0.18));
 
 }
 
-.input-box{
+.signup-input-box{
     box-sizing: border-box;
-
 width: 450px;
 height: 50px;
-
-
 border: 2px solid #622F74;
 border-radius: 20px;
 }
 
-.box-1{
+.signup-box-1{
     position: absolute;
     left: 70px;
     top: 80px;
 }
 
-.box-2{
+.signup-box-2{
     position: absolute;
     left: 70px;
     top: 150px;
 }
 
-.box-3{
+.signup-box-3{
     position: absolute;
     left: 70px;
     top: 220px;
 }
-.box-4{
+.signup-box-4{
     position: absolute;
     left: 70px;
     top: 290px;
+}
+
+.login-input-box{
+    box-sizing: border-box;
+width: 450px;
+height: 50px;
+border: 2px solid white;
+background-color: rgba(0,0,0,0);
+border-radius: 20px;
+}
+
+.login-box-1{
+    position: absolute;
+    left: 70px;
+    top: 170px;
+}
+.login-box-2{
+    position: absolute;
+    left: 70px;
+    top: 240px;
 }
 
 .input-txt{
@@ -112,14 +149,17 @@ line-height: 33px;
 display: flex;
 align-items: center;
 
-color: #622F74;
 }
 
-::placeholder{
-    font-weight:none;
-color: #85708e;
-font-size: 18px;
+.signup-input-txt{
+    color: #622F74;
 }
+
+.login-input-txt{
+    color: white;
+    font-weight: bolder;
+}
+
 
 .last-line{
 position: absolute;
@@ -143,15 +183,19 @@ color: #5C5C5C;
     position: absolute;
 width: 260px;
 height: 82px;
-left: 861px;
+left: 811px;
 top: 540px;
-
+border: none;
 box-shadow: 10px 7px 10px rgba(33, 33, 177, 0.54);
 border-radius: 30px;
 }
 
-.sign-btn{
+.signup-btn{
     background: linear-gradient(304.7deg, rgba(0, 0, 255, 0.2) 3.59%, rgba(204, 204, 255, 0) 32.45%), linear-gradient(302.79deg, rgba(0, 0, 255, 0.2) 8.03%, rgba(204, 204, 255, 0.2) 52.51%), #CCCCFF;
+}
+.login-btn{
+    background: white;
+    left: 790px;
 }
 
 .btn-txt{
@@ -167,5 +211,27 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color: #FFFFFF;
+}
+
+.signup-btn-txt{
+    color: #FFFFFF;
+
+}
+
+.login-btn-txt{
+    margin-left: 68px;
+    color: #8383D4;
+
+}
+
+
+::placeholder{
+    font-weight:none;
+color: #85708e;
+font-size: 18px;
+}
+
+::selection{
+    background-color: black;
+    color: #8383D4;
 }
